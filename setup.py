@@ -46,6 +46,7 @@ setup(name=NAME,
       packages=['mpld3',
                 'mpld3/mplexporter',
                 'mpld3/mplexporter/renderers'],
+      install_requires=['pillow'],
       package_data={'mpld3': ['js/*.js']},
       classifiers=[
           'Development Status :: 4 - Beta',
